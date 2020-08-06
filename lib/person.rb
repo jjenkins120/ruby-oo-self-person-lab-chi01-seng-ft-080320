@@ -36,7 +36,7 @@ class Person
         @hygiene
     end 
     
-    def self.happy?
+    def happy?
       @happiness > 7
       end
     
