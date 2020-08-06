@@ -37,8 +37,6 @@ class Person
     end 
     
     def self.happy?
-      if @happiness > 7
-    else
-    end
+      end
     
 end
