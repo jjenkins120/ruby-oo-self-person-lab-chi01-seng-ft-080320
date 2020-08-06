@@ -72,6 +72,8 @@ class Person
           person.happiness -= 2
           p "blah blah partisan blah lobbyist"
         elsif (topic == "weather")
+          self.happiness += 2 
+          person.happiness += 2
           p "blah blah sun blah rain"
         else topic
       end
