@@ -47,6 +47,9 @@ class Person
     def get_paid (salary)
       @bank_account += salary
       p "all about the benjamins"
-    end
+      end
     
+    def take_bath(value)
+      @hygiene += value
+      end
 end
