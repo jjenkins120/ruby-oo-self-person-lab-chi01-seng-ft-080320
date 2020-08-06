@@ -65,4 +65,7 @@ class Person
       person.happiness += 3
       p "Hi #{person.name}! It's #{self.name}. How are you?"
     end
+    
+    def start_conversation(person, topic)
+    end
 end
