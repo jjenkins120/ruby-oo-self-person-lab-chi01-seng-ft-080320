@@ -69,6 +69,8 @@ class Person
     def start_conversation(person, topic)
       if topic == "politics"
         p "blah blah partisan blah lobbyist"
+        self.happiness -= 2
+        person.happiness -= 2
       else topic
       end
     end
