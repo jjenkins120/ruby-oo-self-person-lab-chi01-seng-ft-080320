@@ -60,6 +60,6 @@ class Person
       p "♪ another one bites the dust ♫"
     end
     
-    def call_friend(Person)
+    def call_friend (person)
     end
 end
