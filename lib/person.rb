@@ -70,5 +70,6 @@ class Person
       if topic == politics 
         p "blah blah partison blah lobbyist"
       else topic
+      end
     end
 end
