@@ -23,6 +23,4 @@ class Person
         end 
         @happiness
     end 
-
-
 end
