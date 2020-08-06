@@ -69,5 +69,6 @@ class Person
     def start_conversation(person, topic)
       if topic == politics 
         p "blah blah partison blah lobbyist"
+      else
     end
 end
