@@ -49,7 +49,7 @@ class Person
       p "all about the benjamins"
       end
     
-    def take_bath(value)
-      @hygiene += value
+    def take_bath
+      @hygiene += 4
       end
 end
