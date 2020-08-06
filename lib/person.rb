@@ -13,12 +13,16 @@ class Person
     @name = name
   end
   
-  def self.happiness
-      if @happiness <= 10
-    @happiness = happiness
-      else 
+  def happiness= (points)
+    if(points >= 0 && points <= 10) 
+        @happiness = points
+    elsif(points < 0 )
+        @happiness = 0
+    else (points > 10)
         @happiness = 10
-      end
-  end
+        end 
+        @happiness
+    end 
+
 
 end
