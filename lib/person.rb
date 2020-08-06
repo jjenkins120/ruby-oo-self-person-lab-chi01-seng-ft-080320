@@ -37,6 +37,7 @@ class Person
     end 
     
     def self.happy?
+      @happiness > 7
       end
     
 end
